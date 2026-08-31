@@ -1,0 +1,12 @@
+Source: ros-jazzy-jig
+Section: misc
+Priority: optional
+Maintainer: "Alistair English" <hello@alistairenglish.com>
+Build-Depends: debhelper (>= 9.0.0), python3-jinja2, python3-jsonschema, python3-pytest <!nocheck>, python3-yaml, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-auto, ros-jazzy-ament-cmake-pytest <!nocheck>, ros-jazzy-ament-cmake-python, ros-jazzy-generate-parameter-library, ros-jazzy-lifecycle-msgs, ros-jazzy-message-filters, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rosidl-default-generators, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: https://index.ros.org/p/jig/#jazzy
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-jig
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-jinja2, python3-jsonschema, python3-yaml, ros-jazzy-ament-index-python, ros-jazzy-lifecycle-msgs, ros-jazzy-message-filters, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rosidl-default-runtime, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Description: Declarative ROS 2 node scaffolding with built-in best practice.
