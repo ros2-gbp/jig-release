@@ -1,5 +1,0 @@
-action_clients:
-  - name: /fibonacci
-    type: example_interfaces/action/Fibonacci
-  - name: navigate_to_pose
-    type: nav2_msgs/action/NavigateToPose
