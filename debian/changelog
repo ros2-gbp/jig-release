@@ -1,0 +1,13 @@
+ros-kilted-jig-cli (0.0.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- "Alistair English" <hello@alistairenglish.com>  Mon, 31 Aug 2026 00:00:00 -0000
+
+ros-kilted-jig-cli (0.0.1-1bookworm) bookworm; urgency=high
+
+  * Initial release of jig, jig_cli, jig_example
+
+ -- "Alistair English" <hello@alistairenglish.com>  Mon, 31 Aug 2026 00:00:00 -0000
+
+
