@@ -1,0 +1,12 @@
+Source: ros-humble-jig-example
+Section: misc
+Priority: optional
+Maintainer: "Alistair English" <hello@alistairenglish.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-example-interfaces, ros-humble-geometry-msgs, ros-humble-jig, ros-humble-launch-ros <!nocheck>, ros-humble-launch-testing <!nocheck>, ros-humble-launch-testing-ament-cmake <!nocheck>, ros-humble-lifecycle-msgs <!nocheck>, ros-humble-rcl-interfaces <!nocheck>, ros-humble-rclcpp, ros-humble-rclpy, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2-msgs <!nocheck>, ros-humble-ros-workspace
+Homepage: https://index.ros.org/p/jig_example/#humble
+Standards-Version: 3.9.2
+
+Package: ros-humble-jig-example
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-example-interfaces, ros-humble-geometry-msgs, ros-humble-jig, ros-humble-rclcpp, ros-humble-rclpy, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-ros-workspace
+Description: An example node using the jig system.
