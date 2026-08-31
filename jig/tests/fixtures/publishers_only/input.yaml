@@ -1,0 +1,11 @@
+publishers:
+    - topic: status
+      type: std_msgs/msg/String
+      qos:
+        history: 10
+        reliability: RELIABLE
+    - topic: counter
+      type: std_msgs/msg/Int32
+      qos:
+        history: 5
+        reliability: BEST_EFFORT

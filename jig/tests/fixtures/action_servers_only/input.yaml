@@ -1,0 +1,5 @@
+actions:
+    - name: fibonacci
+      type: example_interfaces/action/Fibonacci
+    - name: /math/compute
+      type: example_interfaces/action/Fibonacci

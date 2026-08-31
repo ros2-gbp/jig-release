@@ -1,0 +1,32 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v5.0.0
+  hooks:
+  - id: check-xml
+  - id: end-of-file-fixer
+  - id: trailing-whitespace
+  - id: mixed-line-ending
+- repo: https://github.com/psf/black-pre-commit-mirror
+  rev: 25.1.0
+  hooks:
+  - id: black
+    additional_dependencies: ['packaging']
+    exclude: ^jig/tests/fixtures/  # Exclude the fixtures folder
+- repo: https://github.com/pycqa/isort
+  rev: 5.13.2
+  hooks:
+  - id: isort
+    exclude: ^jig/tests/fixtures/  # Exclude the fixtures folder
+- repo: https://github.com/pre-commit/mirrors-clang-format
+  rev: v18.1.5
+  hooks:
+  - id: clang-format
+    exclude: ^jig/tests/fixtures/  # Exclude the fixtures folder
+- repo: https://github.com/cheshirekow/cmake-format-precommit
+  rev: v0.6.13
+  hooks:
+  - id: cmake-format
+- repo: https://github.com/nineyards-robotics/dco-sign-off
+  rev: v1.0.0
+  hooks:
+  - id: dco-sign-off
