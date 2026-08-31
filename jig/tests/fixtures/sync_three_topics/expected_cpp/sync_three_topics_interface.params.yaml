@@ -1,6 +1,0 @@
-test_package::sync_three_topics:
-  _jig_dummy:
-    type: bool
-    default_value: true
-    description: Dummy parameter (jig generates this when no parameters are defined)
-    read_only: true
