@@ -1,8 +1,0 @@
-{
-    "name": "jig-ci",
-    "engineVersion": "v0.20.3",
-    "sdk": {
-        "source": "python"
-    },
-    "source": ".dagger"
-}
