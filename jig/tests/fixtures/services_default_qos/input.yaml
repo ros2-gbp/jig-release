@@ -1,5 +1,0 @@
-services:
-  - name: /trigger_service
-    type: std_srvs/srv/Trigger
-  - name: compute
-    type: example_interfaces/srv/AddTwoInts
