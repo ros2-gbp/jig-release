@@ -1,6 +1,0 @@
-publishers:
-    - topic: sensor_data
-      type: std_msgs/msg/String
-      qos:
-        history: 10
-        reliability: RELIABLE
