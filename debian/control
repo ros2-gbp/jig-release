@@ -1,0 +1,12 @@
+Source: ros-humble-jig-cli
+Section: misc
+Priority: optional
+Maintainer: "Alistair English" <hello@alistairenglish.com>
+Build-Depends: debhelper (>= 9.0.0), python3-jsonschema <!nocheck>, ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: https://index.ros.org/p/jig_cli/#humble
+Standards-Version: 3.9.2
+
+Package: ros-humble-jig-cli
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-yaml, ros-humble-ros-workspace
+Description: CLI tools for jig - declarative ROS 2 node scaffolding.
